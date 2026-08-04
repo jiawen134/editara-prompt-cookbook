@@ -1,0 +1,17 @@
+{
+  "name": "editara-prompt-cookbook",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Dependency-free prompt builder for focused AI photo edits",
+  "type": "module",
+  "bin": {
+    "editara-prompt": "./bin/editara-prompt.mjs"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT"
+}
